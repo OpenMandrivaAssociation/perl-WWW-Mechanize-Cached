@@ -14,7 +14,6 @@ BuildRequires:	perl(WWW::Mechanize)
 BuildRequires:	perl(Cache::Cache)
 BuildRequires:	perl-Test-Warn >= 0.08-5mdk
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Uses the Cache::Cache hierarchy to implement a caching Mech. This
