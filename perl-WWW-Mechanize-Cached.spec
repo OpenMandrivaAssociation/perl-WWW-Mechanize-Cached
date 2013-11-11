@@ -1,15 +1,15 @@
 %define upstream_name       WWW-Mechanize-Cached
-%define upstream_version 1.40
+%define upstream_version 1.43
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Cache response to be polite
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/WWW/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Mechanize-Cached-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Cache::Cache)
@@ -94,4 +94,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 1.32-1mdk
 - initial Mandriva package
+
 
