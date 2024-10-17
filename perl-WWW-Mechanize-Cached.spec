@@ -8,7 +8,7 @@ Release:	3
 Summary:	Cache response to be polite
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Mechanize-Cached-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
